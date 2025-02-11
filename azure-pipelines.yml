@@ -12,7 +12,7 @@ pool: az-pool
 steps:
 - task: NodeTool@0
   inputs:
-    versionSpec: '2.246.1'
+    versionSpec: '20.x'
   displayName: 'Install Node.js'
 
 - script: |
